@@ -1,13 +1,13 @@
 # For running the app
 
-## step 1
+## Step 1
 run node server on your machine
 
-## step 2 - Run Api
+## Step 2 - Run Api
 cd todo-backend\
 node index.js
 
-## step 3 - Run Client
+## Step 3 - Run Client
 
 cd todo-frontend\
 npm start
@@ -18,7 +18,7 @@ _______
 
 ## Backend Code
 
-- todo-backend / index.js
+* todo-backend / index.js
 
 *index.js* file has all the backend code.\
 It connects with MongoDB server.\
@@ -26,11 +26,11 @@ It connects with MongoDB server.\
 
 ## Frontend Code
 
-- todo-frontend / app.js
+* todo-frontend / app.js
 
 *app.js* file has all the frontend code.\
 (related to user interface)
 
-- todo-frontend / app.css
+* todo-frontend / app.css
 
 *app.css* file has all the css code.
