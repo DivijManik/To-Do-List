@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(21, 21, 21);
+  color: white;
+}
+
+/* Parent */
+.ToDoParent {
+  display: inline-block;
+
+  width: 90%;
+  max-width: 600px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+
+  background-color: rgb(30, 30, 30);
+  /* width: 600px; */
+  border-radius: 5px;
+}
+
+/* Text shown on top - Your To-Do List */
+.ToDoText {
+  text-align: left;
+  margin-left: 15px;
+  color: rgb(204, 204, 204);
+}
+
+.Todo {
+  display: inline-block;
+  background-color: black;
+
+  height: 50px;
+  width: 90%;
+
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  padding: 5px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.Todo_Done,
+.CreateTodo_Done {
+  vertical-align: middle;
+  margin-left: 10px;
+  /* height: 15px; */
+}
+
+.Todo_Title {
+  display: inline-flex;
+
+  vertical-align: -2px;
+
+  margin-left: 10px;
+  width: 80%;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Delete Btn */
+.DeleteTodo {
+  vertical-align: -6px;
+  /* right: 0; */
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+/* Create To Do - CSS */
+.CreateTodo {
+  display: inline-block;
+  background-color: black;
+
+  height: 50px;
+  width: 90%;
+
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  padding: 5px;
+  padding-top: 15px;
+
+  border-radius: 5px;
+}
+
+.CreateTodo_Desc {
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 200px;
+
+  height: 20px;
+}
+
+.PostBtn {
+  background-color: white;
+  border-radius: 5px;
+  margin-left: 20px;
+  border: none;
+  height: 20px;
+  width: 70px;
+}
