@@ -36,3 +36,9 @@ It connects with MongoDB server.\
 `todo-frontend / app.css`
 
 `app.css` file has all the css code.
+
+____
+
+# Preview Image
+  
+<img width="200" alt="Screenshot 2024-11-21 at 1 57 50 AM" src="https://github.com/user-attachments/assets/884ced12-0fc3-4aaa-9bf3-af7bc2a15918">
