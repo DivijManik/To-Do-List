@@ -1,7 +1,7 @@
 # For running the app
 
 ## Step 1
-* run node server on your machine
+* run MongoDB server on your machine
 
 ## Step 2 - Run Api
 `cd todo-backend`
